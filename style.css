@@ -1,0 +1,32 @@
+ul { display:flex;
+    justify-content:space-around;
+    width:100%;
+    border: solid 1px purple; }
+li {
+    align-self:center;
+    list-style-type:none;
+}
+#about {margin-top:154px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;}
+#info
+{width:189px;
+    height: 243px;
+    border: solid 1px black;
+    flex-direction:column;}
+
+#about-image {width:350px;
+    height:350px;}
+
+header {height: 56.086px;
+        width: 620.121px;
+    font-family: 'Libre Baskerville', serif;
+    font-size:60pt;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
