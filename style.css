@@ -6,27 +6,41 @@ li {
     align-self:center;
     list-style-type:none;
 }
-#about {margin-top:154px;
+#about {margin-top:54px;
     width: 100%;
     display:flex;
     justify-content: center;
     flex-direction:column;
     align-items: center;}
-#info
-{width:189px;
-    height: 243px;
-    border: solid 1px black;
-    flex-direction:column;}
+header
+{margin-top:auto;
+display:flex;
+justify-content:center;
+flex-direction:row;
+align-items:center;
+font-family: 'Libre Baskerville', serif;
+font-size:58pt;
+    font color:5B007F;}
 
-#about-image {width:350px;
-    height:350px;}
+#header-image
+{ height:auto;
+width: auto;
+align-self: center;
+margin-top:}
 
-header {height: 56.086px;
-        width: 620.121px;
-    font-family: 'Libre Baskerville', serif;
-    font-size:60pt;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+#about-info {
+font-family: 'Montserrat', sans-serif;
+font-size: 18pt;
+display:flex;
+}
+
+#about-info-pt-2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 18pt;
+display:flex;
+
+
+
 
 }
