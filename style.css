@@ -1,8 +1,8 @@
-ul { display:flex;
+#navbar { display:flex;
     justify-content:space-around;
     width:100%;
     border: solid 3px purple;
-font-size:16pt;}
+font-size:16pt;} /* make notes of which pages each of these elements belong */
 li {
     align-self:center;
     list-style-type:none;
@@ -51,7 +51,47 @@ display:flex;}
 font-size: 18pt;
 display: flex;}
 
-#photographyport
-{font-family:'Montserrat' sans-serif;
+#Writing {
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;}
+
+
+#WritingH3{
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;
+justify-content: center;
+
+}
+
+#Photography {
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;}
+
+#PhotoParagraph
+{font-family:'Montserrat', sans-serif;
 font-size: 18pt;
 display:flex;}
+
+#writinglist
+{font-family: 'Montserrat', sans-serif;
+font-size: 14pt;
+display:flex;
+flex-direction: column;
+flex-flow: column;
+}
+
+#ContactH1
+{font-family:'Montserrat', sans-serif;}
+
+#Email
+{font-family:'Montserrat', sans-serif;
+font color:black;}
+
+#Insta
+{font-family:'Montserrat', sans-serif;}
+
+#Twitter
+{font-family:'Montserrat', sans-serif;}
