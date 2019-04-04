@@ -1,12 +1,10 @@
+/*Home Page*/
 #navbar { display:flex;
     justify-content:space-around;
     width:100%;
-    border: solid 3px purple;
-font-size:16pt;} /* make notes of which pages each of these elements belong */
-li {
-    align-self:center;
-    list-style-type:none;
-}
+    font-size:16pt;}
+li {align-self:center;
+    list-style-type:none;}
 #about {margin-top:25px;
     width: 100%;
     display:flex;
@@ -19,15 +17,13 @@ display:flex;
 justify-content:center;
 flex-direction:row;
 align-items:center;
-font-family: 'Libre Baskerville', serif;
-font-size:58pt;
-    font color:5B007F;}
+}
 
 #header-image
-{height:auto;
+{display:flex;
+height:auto;
 width: auto;
-align-self: center;
-margin-top:}
+align-self: center;}
 
 
 #about-info {
@@ -40,12 +36,27 @@ display:flex;
 font-family: 'Montserrat', sans-serif;
 font-size: 18pt;
 display:flex;}
+/*Home Page End*/
 
+/*About Page*/
 #bio {
 font-family: 'Montserrat', sans-serif;
 font-size:18pt;
 display:flex;}
 
+#Abouth2 {
+font-family: 'Libre Baskerville', serif;
+font-size:24pt;
+display:flex;
+justify-content:center;
+
+}
+
+
+
+/*End of About Page*/
+
+/*Portfolio Page*/
 #portfoliowriting
 {font-family:'Montserrat', sans-serif;
 font-size: 18pt;
@@ -56,15 +67,6 @@ font-family: 'Libre Baskerville', serif;
 font-size: 24pt;
 display:flex;}
 
-
-#WritingH3{
-font-family: 'Libre Baskerville', serif;
-font-size: 24pt;
-display:flex;
-justify-content: center;
-
-}
-
 #Photography {
 font-family: 'Libre Baskerville', serif;
 font-size: 24pt;
@@ -74,6 +76,14 @@ display:flex;}
 {font-family:'Montserrat', sans-serif;
 font-size: 18pt;
 display:flex;}
+/*End of Portfolio Page*/
+
+/*Writing Page*/
+#WritingH3{
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;
+justify-content: center;}
 
 #writinglist
 {font-family: 'Montserrat', sans-serif;
@@ -82,7 +92,9 @@ display:flex;
 flex-direction: column;
 flex-flow: column;
 }
+/*End of Writing Page*/
 
+/*Contact Page*/
 #ContactH1
 {font-family:'Montserrat', sans-serif;}
 
@@ -95,3 +107,4 @@ font color:black;}
 
 #Twitter
 {font-family:'Montserrat', sans-serif;}
+/*End of Contact Page*/
