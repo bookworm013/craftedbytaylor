@@ -48,15 +48,19 @@ display:flex;}
 font-family: 'Libre Baskerville', serif;
 font-size:24pt;
 display:flex;
-justify-content:center;
-
-}
+justify-content:center;}
 
 
 
 /*End of About Page*/
 
 /*Portfolio Page*/
+#Porth1 {
+font-family:'Libre Baskerville', serif;
+display:flex;
+justify-content:center;
+}
+
 #portfoliowriting
 {font-family:'Montserrat', sans-serif;
 font-size: 18pt;
@@ -83,20 +87,35 @@ display:flex;}
 font-family: 'Libre Baskerville', serif;
 font-size: 24pt;
 display:flex;
-justify-content: center;}
+justify-content:center;}
 
 #writinglist
 {font-family: 'Montserrat', sans-serif;
 font-size: 14pt;
 display:flex;
 flex-direction: column;
-flex-flow: column;
+
+
+
 }
 /*End of Writing Page*/
 
+/*Photography Page*/
+#photopagelayout {display:flex;
+justify-content:space-around;}
+#Photopage1 {
+display:flex;
+justify-content:center;
+
+}
+
+/*End of Photography Page*/
+
 /*Contact Page*/
 #ContactH1
-{font-family:'Montserrat', sans-serif;}
+{font-family:'Libre Baskerville', serif;
+display:flex;
+justify-content:center;}
 
 #Email
 {font-family:'Montserrat', sans-serif;
