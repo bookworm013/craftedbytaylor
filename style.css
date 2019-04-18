@@ -45,6 +45,11 @@ font-size:18pt;
 display:flex;}
 
 #Abouth2 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:28pt;
 font-family: 'Libre Baskerville', serif;
 font-size:24pt;
 display:flex;
@@ -55,8 +60,13 @@ justify-content:center;}
 /*End of About Page*/
 
 /*Portfolio Page*/
-#Porth1 {
-font-family:'Libre Baskerville', serif;
+#Porth1 {position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:28pt;
+font-family: 'Libre Baskerville', serif;
+font-size:24pt;
 display:flex;
 justify-content:center;
 }
