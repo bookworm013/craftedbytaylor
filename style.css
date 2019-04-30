@@ -1,8 +1,18 @@
 /*Home Page*/
-#navbar { display:flex;
+#navbar /*Fifth Transition Element*/
+{position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:16pt;
+font-family: 'Libre Baskerville', serif;
+font-size:18pt;
+display:flex;
+justify-content:space-around;}
+/*{display:flex;
     justify-content:space-around;
     width:100%;
-    font-size:16pt;}
+    font-size:16pt;}*/
 li {align-self:center;
     list-style-type:none;}
 #about {margin-top:25px;
@@ -60,16 +70,16 @@ justify-content:center;}
 /*End of About Page*/
 
 /*Portfolio Page*/
-#Porth1 {position:relative;
+#Porth1 {
+position:relative;
 transition-property:all;
 transition-duration:5s;
 transition-delay:2s;
-font-size:28pt;
-font-family: 'Libre Baskerville', serif;
 font-size:24pt;
+font-family: 'Libre Baskerville', serif;
+font-size:28pt;
 display:flex;
-justify-content:center;
-}
+justify-content:center;}
 
 #portfoliowriting
 {font-family:'Montserrat', sans-serif;
@@ -93,47 +103,72 @@ display:flex;}
 /*End of Portfolio Page*/
 
 /*Writing Page*/
-#WritingH3{
+#WritingH3 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:24pt;
+font-family: 'Libre Baskerville', serif;
+font-size:28pt;
+display:flex;
+justify-content:center;}
+
+/*{
 font-family: 'Libre Baskerville', serif;
 font-size: 24pt;
 display:flex;
-justify-content:center;}
+justify-content:center;}*/
 
 #writinglist
 {font-family: 'Montserrat', sans-serif;
 font-size: 14pt;
 display:flex;
-flex-direction: column;
-
-
-
-}
+flex-direction: column;}
 /*End of Writing Page*/
 
 /*Photography Page*/
 #photopagelayout {display:flex;
 justify-content:space-around;}
 #Photopage1 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:24pt;
+font-family: 'Libre Baskerville', serif;
+font-size:28pt;
 display:flex;
-justify-content:center;
+justify-content:center;}
 
-}
+
+/*{
+display:flex;
+justify-content:center;}*/
 
 /*End of Photography Page*/
 
 /*Contact Page*/
-#ContactH1
-{font-family:'Libre Baskerville', serif;
+#ContactH1 {
+font-family:'Libre Baskerville', serif;
 display:flex;
 justify-content:center;}
 
+
 #Email
 {font-family:'Montserrat', sans-serif;
-font color:black;}
+text-decoration: none;
+text-decoration-color: black;
+display:flex;
+justify-content:center;}
 
 #Insta
-{font-family:'Montserrat', sans-serif;}
+{font-family:'Montserrat', sans-serif;
+display:flex;
+justify-content:center;}
 
 #Twitter
-{font-family:'Montserrat', sans-serif;}
+{font-family:'Montserrat', sans-serif;
+display:flex;
+justify-content:center;}
 /*End of Contact Page*/
